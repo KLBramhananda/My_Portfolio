@@ -6,9 +6,26 @@
     text-decoration: none;
     list-style:none;
 }
+body {
+    font-size: 1rem; /* Base font size */
+}
+
 html, body {
     overflow: hidden;
 }
+
+/* Default styles for desktop */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for screens less than 768px wide (tablets and mobile devices) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
 
 @keyframes anime{
     from{
