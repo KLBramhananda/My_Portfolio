@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+        <meta name="viewport" content="device=width-device, initial-scale=1.0" >
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <TITLE>MY Portfolio.</TITLE>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <img class="logo"src="images/bramha_logo1.png" alt="logo">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#about" onclick="">ABOUT</a></li>
+                        <li><a href="#project">PROJECT</a></li>
+                        <li><a href="#skill">SKILL</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <h1>Hii, </h1>
+                    <h2>It's me <span> Bramha</span></h2>
+                    <h3>Front-End Developer</h3>
+                    <br><br>
+                    <a href="https://web.whatsapp.com/"><img class="icon" src="images/whatsapp.png" alt="watsapp"></a>
+                    <a href="https://www.instagram.com/accounts/login/?hl=en"><img class="icon"src="images/instagram.png" alt="instagram"></a>
+                    <a href="https://www.facebook.com/login/"><img class="icon" src="images/facebook.png" alt="facebook"></a>
+                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><img class="icon" src="images/cross.png" alt="cross"></a>
+                </div>
+
+                <a href="#about"><button class="button" type="button">More About Me...!</button></a>
+            </div>
+        </div>
+
+        <!------------------about------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col1">
+                        <img src="images/about_image.png" alt="about-iamage">
+                    </div>
+                    <div class="col2">
+                        <h1 class="sub-title">About <span>Me</span></h1>
+                        <p class="about-content">Hello, I'm the Bramhananda K L, am passionate about doing wed development  with a dedication to As a web developer, my expertise lies in orchestrating this intricate dance, crafting digital ecosystems that not only meet the demands of today but anticipate the needs of tomorrow. Over the years, I've cultivated a love for creating the best attractive website and have had the privilege of working on projects that allowed me to achieve specific goals.</p><br>
+
+                        <div class="tab-title">
+                            <p class="titles title2" onclick="opentab('education')">Education</p>
+                            <p class="titles"onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="title-contents active-content" id="education">
+                                <h1>B-Tech [ ECE ]</h1><p>Reva University Bengaluru 560064<br>CGPA : 7.7 <br><br></p> 
+                                <h1>Diploma [ ECE ]<br></h1><p> Diploma Polytechnic Turuvekere 572227 <br> Percentage : 82.63 <br><br></p>
+                                <h1> X [ SSLC ]<br></h1><p>Sri Bapuji Central high School Machenahalli 572227<br>Percentage : 79.04 <br><br><br></p> 
+                        </div>
+                        <div class="title-contents" id="experience">
+                            <p>I am writing to express my enthusiasm and share my experiences as a recent graduate entering the professional world. As someone without prior formal experience, I embarked on this journey with a blend of excitement and a tinge of uncertainty. However, the challenges I faced and the lessons I learned during this time have been invaluable.<br><br> My journey began with the realization that the transition from academia to the professional world involves more than just acquiring technical skills. It's about adapting to a new environment, understanding workplace dynamics, and developing a professional mindset. I quickly learned the importance of effective communication, teamwork, and the ability to navigate through various tasks with adaptability.</p>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+
+        <script>
+
+            var titles=document.getElementsByClassName("titles");
+            var titlecontents=document.getElementsByClassName("title-contents");
+            
+            function opentab(tabname){
+                    for(title of titles){
+                        title.classList.remove("title2");
+                    }
+                    for(titlecontent of titlecontents){
+                        titlecontent.classList.remove("active-content");
+                    }
+                    event.currentTarget.classList.add("title2");
+                    document.getElementById(tabname).classList.add("active-content");
+            }
+
+        </script>
+        <div id="project">
+            <div class="container">
+                <h1 class="subtitle">My <span>Projects</span></h1>
+                <div class="project-list">
+                    <div>
+                        <h2>Myntra Clone</h2>
+                        <p>In this project, I have made a look-alike clone of the Myntra website. With my efforts and the technology stack, I am able to clone the front end with similar looks and features.</p>
+                        <a href="#">Learn More...</a>
+                    </div>
+                    <div>
+                        <h2>Suduko Game</h2>
+                        <p>There are more than a few techniques to solve a Sudoku puzzle, the easiest way to a Sudoku solution is to, “Scan rows and columns within each triple-box area, eliminating numbers or squares and finding situations where only a single number can fit into a single square”.</p>
+                        <a href="#">Learn More...</a>
+                    </div>
+                    <div>
+                        <h2>Smart Bus Fare Debit SYstem</h2>
+                        <p>Automatic Fare Collection System implemented by RFID /Smart card. RFID card is given to the passenger and when passenger gets into the bus he has to swipe the card in the RFID reader.</p>
+                        <a href="#">Learn More...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skill">
+            <h1>My <span>Skills</span> </h1>
+            <div class="skill-content">
+                <div>
+                    <h2>Technical Skills</h2>
+                    <p>Java <br><br>Python (Basic) <br><br>MySQL <br><br>HTML <br><br>CSS <br><br>JavaScript</p>
+                </div>
+                <div>
+                    <h2>Soft Skills</h2>
+                    <p>Leadership <br><br>Project Management <br><br>Creativity <br><br>Problem Solving <br><br>Emotional intelligence
+                    </p>
+                </div>
+                <div>
+                    <h2>Hobbies</h2>
+                    <p>Cricket <br><br>Online Games <br><br>Cooking <br><br>Exercise <br><br>Music</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
