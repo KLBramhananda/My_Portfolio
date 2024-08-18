@@ -28,8 +28,7 @@ document.querySelector('.contact-form').addEventListener('submit', function(e) {
   const message = document.querySelector('textarea[placeholder="Write your message"]').value;
 
   // Validate the form fields here
-
-  // Send the data using AJAX, Fetch API, etc.
+  
   fetch('your-server-side-script-url', {
       method: 'POST',
       headers: {
