@@ -27,11 +27,11 @@ To view or modify the portfolio locally, follow these steps:
    
    You can open index.html in your preferred web browser to view the portfolio.
 
-**Live Demo**
+## Live Demo
 
 Check out the live version of my portfolio at my-portfolio-live-site.
 
-**Technologies Used**
+## Technologies Used
 
 HTML: For structuring the content.
 
@@ -39,11 +39,11 @@ CSS: For styling and layout.
 
 JavaScript: For interactivity and dynamic content.
 
-**Contributing**
+## Contributing
 
 I welcome contributions and suggestions! If you'd like to improve the project or add new features,
 
-please follow these steps:
+## please follow these steps:
 
 **Fork the repository.**
 
@@ -53,7 +53,7 @@ Commit your changes and push to your fork.
 
 Submit a pull request to the main repository.
 
-**Contact**
+## Contact
 
 LinkedIn:https://www.linkedin.com/in/bramhanandakl/
 
