@@ -57,7 +57,7 @@ Submit a pull request to the main repository.
 
 LinkedIn:https://www.linkedin.com/in/bramhanandakl/
 
-Email:bramhanandakl@gmail.com 
+Email:bramhanandakl2002@gmail.com 
 
 
                **Thank you for visiting my portfolio!**
