@@ -27,7 +27,7 @@ body {
   }
 }
 
-@keyframes nime {
+@keyframes anime {
   from {
     transform: translateX(-600px);
   }
