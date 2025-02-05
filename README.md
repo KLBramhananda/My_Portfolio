@@ -1,4 +1,7 @@
-# My_Portfolio
+# ⚒️😎  My_Portfolio  👑
+
+![image](https://github.com/user-attachments/assets/474f1086-4918-4f1d-b4cc-0f99d6a54284)
+
 
 Welcome to my personal portfolio website! This project showcases my skills, experiences, and the projects I've worked on. Built with HTML, CSS, and JavaScript, it highlights my abilities as a web developer and serves as a dynamic introduction to my work.
 
